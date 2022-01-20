@@ -49,7 +49,7 @@ Page({
   loadData() {
     this.setData({
       count: this.data.count + 1,
-      over: this.data.count > 5
+      over: this.data.count > 20
     })
     return [{
       idx: 1

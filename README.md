@@ -147,5 +147,5 @@ FlatListContext 对象提供的方法有：
 | getCurrentRenderIndex           | 无        | 获取当前渲染屏幕索引 |
 
  ## Tips
-
-
+[一个完整的测试demo](./tools/demo)  
+![demo](./doc/demo.gif)
