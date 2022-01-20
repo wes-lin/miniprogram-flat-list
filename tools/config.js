@@ -92,5 +92,5 @@ module.exports = {
     }
   },
 
-  copy: [], // 将会复制到目标目录
+  copy: ['./index.d.ts'], // 将会复制到目标目录
 }
