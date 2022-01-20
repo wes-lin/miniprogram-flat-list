@@ -1,0 +1,20 @@
+<view style="height:{{height}}px;width:{{width}}px;">
+  <scroll-view class="content" scroll-y="true" style="height:100%;" 
+    bindscrolltolower="lower" 
+    bindscroll="scroll" 
+    bindscrolltoupper="upper"
+    bindrefresherrefresh="refresherrefresh"
+    refresher-enabled="{{refresherEnabled}}"
+    refresher-triggered="{{refresherTriggered}}"
+    refreshe-threshold="{{refresherThreshold}}"
+    refresher-default-style="{{refresherDefaultStyle}}"
+    refresher-background="{{refresherBackground}}">
+    <view wx:if="{{useBeforeSlot}}" class="flat-list-before">
+      <slot name="before"/>
+    </view>
+    <slot/>
+    <view wx:if="{{useAfterSlot}}" class="flat-list-after">
+      <slot name="after"/>
+    </view>
+  </scroll-view>
+</view>

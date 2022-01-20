@@ -1,0 +1,28 @@
+page{
+    color: #323233;
+    background-color: #f8f8f8;
+}
+.page{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:coral;
+    margin: 10px;
+}
+
+.after{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:darkolivegreen;
+    margin: 10px;
+}

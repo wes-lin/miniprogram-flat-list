@@ -1,0 +1,7 @@
+<view class="flat-list-wrap">
+    <block wx:if="{{ item.length > 0 }}">   
+        <slot ></slot>
+    </block>
+    <view wx:else style="height: {{ item.height}}px">
+    </view>
+</view>

@@ -1,0 +1,29 @@
+<flat-list id="flatList" 
+  bindscrolltolower="scrolltolower" 
+  width="{{windowWidth}}" 
+  height="{{windowHeight}}"
+  use-after-slot="{{true}}"
+  use-before-slot="{{true}}"
+  refresher-enabled="{{true}}"
+  refresher-triggered="{{trigger}}"
+  bindrefresherrefresh="refresherrefresh">
+  <view slot="before" class="after">
+    我来组成头部
+  </view>
+  <flat-list-item wx:for="{{list}}" wx:for-item="item" wx:for-index="pageIndex" item="{{item}}" wx:key="item">
+    <block>
+      <view class="page">这是第 {{pageIndex}} 页面数据</view>
+      <view class="item" wx:for="{{ item }}" wx:for-index="index" wx:for-item="listItem" wx:key="index">
+        第{{index}}条数据
+      </view>
+    </block> 
+  </flat-list-item>
+  <view slot="after" class="after">
+    <view wx:if="{{loading}}">
+      数据加载中
+    </view>
+    <view wx:elif="{{over}}">
+      我可是有底线的
+    </view>
+  </view>
+</flat-list>

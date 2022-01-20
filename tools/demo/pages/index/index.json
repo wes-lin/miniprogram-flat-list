@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "flat-list":"../../components/flat-list/index",
+    "flat-list-item":"../../components/flat-list-item/index"
+  }
+}
