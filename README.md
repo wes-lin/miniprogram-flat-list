@@ -114,7 +114,11 @@ npm install --save miniprogram-flat-list
 
 ​  长列表的内容实际是在一个 flat-list 滚动区域里面的，当长列表里面的内容，不止是单独的一个列表的时候，例如我们页面底部都会有一个 copyright 的声明，我们就可以把这部分的内容放在 before 和 after 这2个 slot 里面。
 
-**flat-list-item 的介绍如下：**
+**flat-list-item 的介绍如下：**  
+
+| 字段名                | 类型    | 必填 | 描述                                      |
+| --------------------- | ------- | ---- | ----------------------------------------- |
+| item                    | Object  | 是   | 一屏的页面数据                  |
 
 ​  需要注意的是，flat-list-item 中必须定义 wx:for 列表循环，不应该通过 setData 来设置 wx:for 绑定的变量，而是通过`createFlatListContext`方法创建`FlatListContext`对象来管理数据，`createFlatListContext`在 index.js 文件里面定义。建议同时设置 wx:key，以提升列表的渲染性能
    
