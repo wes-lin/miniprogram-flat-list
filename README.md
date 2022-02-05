@@ -152,4 +152,4 @@ FlatListContext 对象提供的方法有：
 
  ## Tips
 [一个完整的测试demo](./tools/demo)  
-![demo](./doc/demo.gif)
+![demo](https://cdn.jsdelivr.net/gh/wes-lin/miniprogram-flat-list/doc/demo.gif)
