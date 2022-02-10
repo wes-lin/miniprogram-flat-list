@@ -1,6 +1,9 @@
 # miniprogram-flat-list
 
 <p align="center">
+  <a href="https://github.com/wes-lin/miniprogram-flat-list/actions/workflows/preview-build.yml">
+    <img src="https://github.com/wes-lin/miniprogram-flat-list/actions/workflows/preview-build.yml/badge.svg">
+  </a>
   <a href="https://www.npmjs.org/package/miniprogram-flat-list">
     <img src="https://img.shields.io/npm/v/miniprogram-flat-list.svg">
   </a>
