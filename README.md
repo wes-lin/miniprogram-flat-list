@@ -1,7 +1,17 @@
 # miniprogram-flat-list
 
 微信小程序版FlatList：
-
+<p align="center">
+  <a href="https://www.npmjs.org/package/miniprogram-flat-list">
+    <img src="https://img.shields.io/npm/v/miniprogram-flat-list.svg">
+  </a>
+  <a href="https://npmcharts.com/compare/miniprogram-flat-list?minimal=true">
+    <img src="http://img.shields.io/npm/dm/miniprogram-flat-list.svg">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg">
+  </a>
+</p>
 * 支持下拉刷新
 
 ## 背景
