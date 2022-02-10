@@ -1,6 +1,5 @@
 # miniprogram-flat-list
 
-微信小程序版FlatList：
 <p align="center">
   <a href="https://www.npmjs.org/package/miniprogram-flat-list">
     <img src="https://img.shields.io/npm/v/miniprogram-flat-list.svg">
@@ -12,6 +11,9 @@
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg">
   </a>
 </p>
+
+微信小程序版FlatList：
+
 * 支持下拉刷新
 
 ## 背景
